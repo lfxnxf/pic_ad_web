@@ -1,0 +1,27 @@
+.manage-nav {
+  background-color: #fff;
+}
+.manage-nav .header {
+  height: 70px;
+  padding: 15px 13%;
+  border-bottom: 1px solid #ccc;
+}
+.manage-nav .header .logo {
+  float: left;
+  height: 40px;
+  padding-right: 10px;
+  border-right: 2px solid #999;
+  cursor: pointer;
+}
+.manage-nav .header .logo img {
+  height: 100%;
+  width: auto;
+}
+.manage-nav .header > h3 {
+  float: left;
+  line-height: 40px;
+  color: #666;
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight: 400;
+}

@@ -1,0 +1,59 @@
+.user_info{
+  height: 103px;
+  padding: 20px 17%;
+  background: url('../../assets/images/home_user_bg.png') no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+  .pic{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  .info{
+    float: left;
+    color: #fff;
+  }
+  .ivu-dropdown{
+    a{
+      color: #fff;
+      &:hover,&:focus{
+        color: #fff;
+      }
+    }
+    /deep/.ivu-select-dropdown{
+      border-radius: 0;
+    }
+    .ivu-dropdown-item{
+      text-align: center;
+      &:hover{
+        color: #228eca;
+        background-color: inherit;
+      }
+    }
+  }
+
+  
+
+  .ivu-tooltip .ivu-tooltip-rel{
+    >.iconfont{
+      position: relative;
+      >span{
+        position: absolute;
+        right: -3px;
+        bottom: 0;
+        border-radius: 50%;
+        background-color: #eee;
+        line-height: 16px;
+
+      }
+    }
+  }
+ 
+}

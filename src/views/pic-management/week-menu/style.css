@@ -1,0 +1,67 @@
+.tmp-create-table-footer {
+  padding: 5px 0;
+  height: 51px;
+  cursor: pointer;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  background-color: #ecf7fb;
+  border: 1px solid #e8eaec;
+  text-align: center;
+}
+.tmp-create-table-footer i,
+.tmp-create-table-footer span {
+  vertical-align: middle;
+}
+.tmp-create-table-footer:hover i,
+.tmp-create-table-footer:focus i,
+.tmp-create-table-footer:hover span,
+.tmp-create-table-footer:focus span {
+  color: #0f6cb1 !important;
+}
+.weekTable /deep/ .ivu-table-column-center {
+  background-color: #ecf7fb;
+  font-size: 15px;
+  color: #228eca;
+}
+.tables /deep/ .ivu-table td.first-column {
+  font-weight: 500;
+  background-color: #f8f8f9;
+}
+.tables /deep/ .ivu-table .ivu-table-tbody td {
+  height: auto;
+}
+.tables /deep/ .ivu-table .ivu-table-tbody .ivu-table-cell-slot {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  height: auto;
+}
+.tables /deep/ .ivu-table .ivu-select {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.tables .table /deep/ .ivu-table-body {
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -o-transition: all 400ms;
+  transition: all 400ms;
+}
+.tables .table /deep/ .ivu-table-body .ivu-input-wrapper {
+  margin-bottom: 0 !important;
+}
+.tables .table /deep/ .ivu-table-body .ivu-input-wrapper .ivu-input {
+  border-bottom: 0;
+  border-radius: 4px 4px 0 0;
+}
+.tables .table /deep/ .ivu-table-body .ivu-input-wrapper .ivu-input:hover,
+.tables .table /deep/ .ivu-table-body .ivu-input-wrapper .ivu-input:focus {
+  border-color: #dcdee2;
+}
+.tables .table /deep/ .ivu-table-body .ivu-table-cell-slot .ivu-btn {
+  border-radius: 0 0 4px 4px;
+  border: 1px solid #dcdee2;
+}
+.tables .table .icon-del {
+  font-size: 28px;
+  cursor: pointer;
+}

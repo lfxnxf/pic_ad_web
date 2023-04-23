@@ -1,0 +1,33 @@
+.top-nav {
+  height: 30px;
+  background-color: #333333;
+  padding: 9px 13%;
+  font-size: 12px;
+  line-height: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.top-nav > div {
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.top-nav > div:not(:first-child):hover,
+.top-nav > div:not(:first-child):focus {
+  color: #39c07e;
+  text-decoration: underline;
+}
+.top-nav .iconfont {
+  color: #fff;
+  padding-left: 10px;
+}
+.top-nav .login-info {
+  margin-right: 10px;
+}
+.top-nav .border {
+  border-right: 1px solid #999;
+}

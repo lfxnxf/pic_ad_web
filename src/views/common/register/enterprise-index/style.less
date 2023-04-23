@@ -1,0 +1,73 @@
+.company{
+  padding: 30px;
+  position: relative;
+  .ivu-form-item{
+    width: 320px;
+  }
+  .input_check_code{
+    width: 140px;
+   
+  }
+  .check_code{
+    margin-top: 1px;
+    width: 90px;
+    height: 32px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #dcdee2;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+  }
+  .code{
+    position: absolute;
+    top: 30px;
+    right: 80px;
+    text-align: center;
+    color: #666;
+    img{
+      margin-top: 15px;
+      width: 100px;
+      height: auto;
+
+    }
+  }
+  
+}
+/deep/.ivu-modal{
+  // border: 8px solid rgba(0,0,0,.3);
+  .ivu-form{
+    padding: 0 100px;
+  }
+  .tip{
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+    span{
+      vertical-align: middle;
+    }
+    .iconfont{
+      margin-right: 5px;
+      color: #2480b4;
+      
+    }
+   
+  }
+}
+.modalEmailRef{
+  /deep/.ivu-modal-body{
+    text-align: center;
+    .resend{
+      border: none;
+      cursor: pointer;
+      &:hover,&:focus{
+        text-decoration: underline;
+        outline: none;
+      }
+    }
+  }
+  
+  
+  
+}

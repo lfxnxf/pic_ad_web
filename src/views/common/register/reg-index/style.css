@@ -1,0 +1,11 @@
+.reg_index .personal {
+  padding: 30px 25%;
+}
+.reg_index .code /deep/ .ivu-form-item-content {
+  padding-right: 110px;
+}
+.reg_index .code .right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}

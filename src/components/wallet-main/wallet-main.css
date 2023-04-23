@@ -1,0 +1,51 @@
+.user_info {
+  height: 103px;
+  padding: 20px 17%;
+  background: url('../../assets/images/home_user_bg.png') no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+.user_info .pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.user_info .info {
+  float: left;
+  color: #fff;
+}
+.user_info .ivu-dropdown a {
+  color: #fff;
+}
+.user_info .ivu-dropdown a:hover,
+.user_info .ivu-dropdown a:focus {
+  color: #fff;
+}
+.user_info .ivu-dropdown /deep/ .ivu-select-dropdown {
+  border-radius: 0;
+}
+.user_info .ivu-dropdown .ivu-dropdown-item {
+  text-align: center;
+}
+.user_info .ivu-dropdown .ivu-dropdown-item:hover {
+  color: #228eca;
+  background-color: inherit;
+}
+.user_info .ivu-tooltip .ivu-tooltip-rel > .iconfont {
+  position: relative;
+}
+.user_info .ivu-tooltip .ivu-tooltip-rel > .iconfont > span {
+  position: absolute;
+  right: -3px;
+  bottom: 0;
+  border-radius: 50%;
+  background-color: #eee;
+  line-height: 16px;
+}

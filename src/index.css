@@ -1,0 +1,52 @@
+.padding-l-r-16 {
+  padding: 0 16px;
+}
+.margin-t-16 {
+  margin-top: 16px;
+}
+.margin-b-16 {
+  margin-bottom: 16px;
+}
+.margin-l-16 {
+  margin-left: 16px;
+}
+.margin-r-16 {
+  margin-right: 16px;
+}
+.text-a-l {
+  text-align: left;
+}
+.text-a-r {
+  text-align: right;
+}
+.text-a-c {
+  text-align: center;
+}
+.font-w-b {
+  font-weight: bold;
+}
+.display-in-block {
+  display: inline-block;
+}
+.text-c-gray {
+  color: #9C9C9C;
+  font-size: 12px;
+}
+.input-i .ivu-input-wrapper{
+  margin-left: 8px;
+  width: auto;
+}
+.input-i .ivu-select{
+  margin-left: 8px;
+  width: auto;
+}
+.card-box .title {
+  margin: 8px 0;
+}
+.card-box .detailed {
+  line-height: 40px;
+}
+.card-box .detailed .ivu-row .ivu-col:nth-of-type(even) {
+  font-weight: bold;
+  font-size: 16px;
+}

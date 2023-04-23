@@ -1,0 +1,60 @@
+.home-nav{
+  background-color: #eeeeee;
+  height: 100%;
+  
+  .nav{
+    padding: 20px 17%;
+    height: 60px;
+    position: relative;
+    background-color: #fff;
+  }
+  .view{
+    min-height: ~'-webkit-calc(100% - 90px)';
+    min-height: ~'-moz-calc(100% - 90px)';
+    min-height: ~'calc(100% - 90px)';
+  }
+  .logo{
+    position: absolute;
+    left: 17%;
+    top: 5px;
+    height: 50px;
+    width: 90px;
+    background:url('../../assets/images/logo.png') no-repeat center;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    background-size: 100% auto;
+  }
+  .list{
+    position: absolute;
+    right: 17%;
+    top: 0;
+    padding: 20px 0;
+    // -webkit-transform: translateX(-50%);
+    // -moz-transform: translateX(-50%);
+    // transform: translateX(-50%);
+    
+    .ivu-menu-item{
+      font-size: 16px;
+      font-weight: 500;
+      padding: 0 25px;
+      height: 20px;
+      line-height: 20px;
+      &:hover,&:focus,&.ivu-menu-item-active{
+        color: #39c07e;
+        border-bottom: 0;
+      }
+      &:last-child{
+        padding-right: 0;
+      }
+    }
+  }
+  .ivu-menu-horizontal.ivu-menu-light:after{
+    display: none;
+  }
+  .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item{
+    border-bottom: 0;
+  }
+  
+}

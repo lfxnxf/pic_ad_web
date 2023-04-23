@@ -1,0 +1,61 @@
+.company {
+  padding: 30px;
+  position: relative;
+}
+.company .ivu-form-item {
+  width: 320px;
+}
+.company .input_check_code {
+  width: 140px;
+}
+.company .check_code {
+  margin-top: 1px;
+  width: 90px;
+  height: 32px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #dcdee2;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+.company .code {
+  position: absolute;
+  top: 30px;
+  right: 80px;
+  text-align: center;
+  color: #666;
+}
+.company .code img {
+  margin-top: 15px;
+  width: 100px;
+  height: auto;
+}
+ /deep/ .ivu-modal .ivu-form {
+  padding: 0 100px;
+}
+ /deep/ .ivu-modal .tip {
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+}
+ /deep/ .ivu-modal .tip span {
+  vertical-align: middle;
+}
+ /deep/ .ivu-modal .tip .iconfont {
+  margin-right: 5px;
+  color: #2480b4;
+}
+.modalEmailRef /deep/ .ivu-modal-body {
+  text-align: center;
+}
+.modalEmailRef /deep/ .ivu-modal-body .resend {
+  border: none;
+  cursor: pointer;
+}
+.modalEmailRef /deep/ .ivu-modal-body .resend:hover,
+.modalEmailRef /deep/ .ivu-modal-body .resend:focus {
+  text-decoration: underline;
+  outline: none;
+}

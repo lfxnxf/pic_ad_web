@@ -1,0 +1,84 @@
+
+  
+  .tmp-create-table-footer{
+    padding: 5px 0;
+    height: 51px;
+    cursor: pointer;
+    height: 40px; 
+    line-height: 40px; 
+    padding: 0 10px;
+    background-color: #ecf7fb;
+    border: 1px solid #e8eaec;
+    text-align: center;
+    i,span{
+      vertical-align: middle;     
+    }
+    &:hover,&:focus{
+      i,span{
+        color: #0f6cb1 !important;
+      }   
+    }
+  }
+  .weekTable{
+    /deep/.ivu-table-column-center{
+      background-color: #ecf7fb;
+      font-size: 15px;
+      color: #228eca;
+    }
+  }
+  .tables{
+    /deep/.ivu-table{
+      td.first-column{
+        font-weight: 500;
+        background-color: #f8f8f9;
+      }
+      .ivu-table-tbody {
+        td{
+          height: auto;
+        }
+        .ivu-table-cell-slot{
+          padding-top: 8px !important;
+          padding-bottom: 8px !important;
+          height: auto;
+        }
+      }
+      
+      .ivu-select{
+        margin-bottom: 5px;
+        margin-top: 5px;
+      }
+     
+    }
+    .table{
+      /deep/.ivu-table-body{
+        -webkit-transition: all 400ms;
+        -moz-transition: all 400ms;
+        -o-transition: all 400ms;
+        transition: all 400ms;
+        .ivu-input-wrapper{
+          margin-bottom: 0 !important;
+          .ivu-input{
+            border-bottom: 0;
+            border-radius: 4px 4px 0 0;
+            &:hover, &:focus {
+              border-color: #dcdee2;
+            }
+          }
+          
+        }
+        .ivu-table-cell-slot{
+          .ivu-btn{
+            border-radius: 0 0 4px 4px;
+            border: 1px solid #dcdee2;
+          }
+        }
+      }
+      .icon-del{
+        font-size: 28px;
+        cursor: pointer;
+      }
+    }
+    
+  }
+
+  

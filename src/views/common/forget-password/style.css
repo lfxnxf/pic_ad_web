@@ -1,0 +1,126 @@
+.forgetPwd .ivu-form {
+  padding: 30px 173px;
+  width: 691px;
+}
+.forgetPwd .ivu-form .ivu-form-item {
+  width: 345px;
+}
+.forgetPwd .ivu-form /deep/ .dv_handler {
+  border: 0;
+}
+.forgetPwd .ivu-form /deep/ .ivu-icon {
+  line-height: 32px;
+  color: #fff;
+}
+.forgetPwd .ivu-form .drag_verify {
+  border-radius: 4px !important;
+  border: 1px solid #39c07e;
+  box-sizing: content-box;
+  box-shadow: 0 0 7px #39c07e inset;
+}
+.forgetPwd .ivu-form .drag_verify .dv_text {
+  color: #999;
+}
+.forgetPwd .ivu-form .dv_handler {
+  border-color: #39c07e;
+}
+.common-step {
+  background-color: #f8f8f8;
+  min-height: 100%;
+}
+.common-step /deep/ .ivu-card {
+  margin: 30px auto;
+  width: 691px;
+}
+.common-step /deep/ .ivu-card .ivu-card-body {
+  padding: 0;
+}
+.common-step /deep/ .ivu-card .title {
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #dcdee2;
+  font-size: 16px;
+}
+.common-step .content {
+  padding: 16px;
+}
+.common-step /deep/ .ivu-steps .ivu-steps-head {
+  display: none;
+}
+.common-step /deep/ .ivu-steps .ivu-steps-item {
+  width: 33.3%;
+  padding-left: 40px;
+  background-color: #f8f8f8;
+}
+.common-step /deep/ .ivu-steps .ivu-steps-item:last-child .ivu-steps-tail {
+  display: block;
+}
+.common-step /deep/ .ivu-steps .ivu-steps-item:first-child .ivu-steps-tail {
+  display: none;
+}
+.common-step /deep/ .ivu-steps .ivu-steps-item.ivu-steps-status-process {
+  background-color: #39c07e;
+}
+.common-step /deep/ .ivu-steps .ivu-steps-item.ivu-steps-status-process .ivu-steps-title {
+  color: #fff;
+}
+.common-step /deep/ .ivu-steps .ivu-steps-item.ivu-steps-status-process + div .ivu-steps-tail::before {
+  background-color: #39c07e;
+}
+.common-step /deep/ .ivu-steps .ivu-steps-item.ivu-steps-status-finish {
+  background-color: #d6f1ea;
+}
+.common-step /deep/ .ivu-steps .ivu-steps-item.ivu-steps-status-finish .ivu-steps-title {
+  color: #39c07e;
+}
+.common-step /deep/ .ivu-steps .ivu-steps-item.ivu-steps-status-finish + div .ivu-steps-tail::before {
+  background-color: #d6f1ea;
+}
+.common-step /deep/ .ivu-steps .ivu-steps-main {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 0;
+  padding-right: 0;
+}
+.common-step /deep/ .ivu-steps .ivu-steps-title {
+  background-color: transparent;
+  padding-right: 0;
+  margin-bottom: 0;
+}
+.common-step /deep/ .ivu-steps .ivu-steps-tail {
+  left: -25px;
+  top: -4px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  padding: 10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.common-step /deep/ .ivu-steps .ivu-steps-tail::before {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8;
+}
+.check-strategy {
+  padding: 30px 25%;
+}
+.check-strategy .ivu-input-wrapper {
+  width: 60%;
+  float: left;
+}
+.check-strategy .get_check_code {
+  width: 35%;
+  height: 32px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #dcdee2;
+  float: right;
+  cursor: pointer;
+  text-align: center;
+  font-size: 12px;
+}

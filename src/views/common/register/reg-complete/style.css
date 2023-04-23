@@ -1,0 +1,26 @@
+.reg-complete {
+  padding: 20px;
+}
+.reg-complete .user_info {
+  padding-top: 10px;
+  font-size: 16px;
+}
+.reg-complete /deep/ .ivu-form {
+  padding-top: 20px;
+}
+.reg-complete /deep/ .ivu-form .ivu-select,
+.reg-complete /deep/ .ivu-form .ivu-input,
+.reg-complete /deep/ .ivu-form .ivu-cascader-rel {
+  width: auto;
+}
+.reg-complete /deep/ .ivu-form textarea {
+  line-height: 1.5;
+  padding: 4px 7px;
+  font-size: 14px;
+  border: 1px solid #dcdee2;
+  border-radius: 4px;
+  color: #515a6e;
+}
+.reg-complete .border-top {
+  border-top: 1px dashed #d5d5d5;
+}

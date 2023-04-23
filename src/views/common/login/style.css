@@ -1,0 +1,80 @@
+.login {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.login .login_spin {
+  z-index: 8888;
+}
+.login .login_spin /deep/ .demo-spin-icon-load {
+  font-size: 30px !important;
+}
+.login .content {
+  position: relative;
+  width: 100%;
+  height: -webkit-calc(40%);
+  height: -moz-calc(40%);
+  height: calc(100% - 60px);
+  padding-top: 15vh;
+  background: url('../../../assets/images/login_bgm.png') no-repeat 0 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+.login .content .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.login .content .form_wrapper {
+  z-index: 999;
+  width: 300px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+.login .content .form_wrapper .ivu-form-item-content {
+  height: 32px !important;
+}
+.login .content .form_wrapper .ivu-btn {
+  width: 147px;
+}
+.login .content .form_wrapper .ivu-btn-default {
+  border-color: #39c07e;
+  color: #39c07e;
+  background-color: transparent;
+}
+.login .content .form_wrapper .ivu-btn-default:hover,
+.login .content .form_wrapper .ivu-btn-default:focus {
+  opacity: 0.8;
+}
+.loginV2 .content .form_wrapper {
+  width: 820px;
+  background-color: #fff;
+  border-radius: 18px;
+  position: relative;
+}
+.loginV2 .content .form_wrapper /deep/ .ivu-form-item-content {
+  height: 32px !important;
+}
+.loginV2 .content .form_wrapper .verify /deep/ .ivu-form-item-content {
+  height: auto !important;
+}
+.loginV2 .content .form_wrapper > img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.loginV2 .content .form_wrapper .ivu-form {
+  position: absolute;
+  left: 56%;
+  top: 70px;
+  width: 304px;
+}

@@ -1,0 +1,33 @@
+.login-nav .top {
+  height: 60px;
+  color: #fff;
+  background-color: #333333;
+  padding: 0 50px;
+  line-height: 60px;
+  letter-spacing: 0.3em;
+}
+.login-nav .top .top-list {
+  float: left;
+}
+.login-nav .top .top-list li {
+  color: #fff;
+  float: left;
+  margin: 0 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.login-nav .top .top-list li.active,
+.login-nav .top .top-list li:hover,
+.login-nav .top .top-list li:focus {
+  color: #39c07e;
+}
+.login-nav .top .top-list li:first-child {
+  margin-left: 0;
+}
+.login-nav .top .login-info {
+  float: right;
+  margin-right: 18%;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+}
